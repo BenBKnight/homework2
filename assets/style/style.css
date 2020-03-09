@@ -1,0 +1,106 @@
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+.navbar {
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(207, 207, 207);
+
+}
+.nav-item {
+    color:grey
+}
+.content-aboutme {
+    margin: 10px;
+    background-color: white;
+    border: .5px rgb(196, 196, 196) solid;
+    max-width: 750px;
+}
+#visual{
+    border: red; border-style: solid !important; 
+}
+body {
+    background-color: rgb(207, 207, 207);
+}
+.aboutme{
+    color: rgb(19, 158, 144);
+    
+}
+.aboutme-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 15px 15px 0px;
+    float: left;
+    max-height: 250px;
+    position: relative;
+}
+.break {
+    margin: 10px;
+}
+.footer {
+    border-top: rgb(19, 158, 144);
+    border-style: solid none none;
+    background-color: rgb(85, 85, 85);
+    border-width: 7px;
+    text-align: center;
+    font-size: 10%;
+    min-height: 50px;
+    color: grey;
+}
+.copyright {
+    position: absolute;
+    bottom: 20px;
+
+}
+.overlay {
+    position: absolute;
+    bottom: 2em;
+    background: rgb(19, 158, 144);
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+  }
+  .portfolio-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+  .card-title {
+    background-color: rgb(19, 158, 144); 
+    text-align: center;
+    color: white;
+    padding: 7px;
+    position: absolute;
+    bottom: -10px;     
+  }
+  .content-portfolio {
+    margin: 10px;
+    background-color: white;
+    border: .5px rgb(196, 196, 196) solid;
+    max-width: 750px;
+}
+/* Media Responsivness tags */
+
+@media only screen and (max-width: 640px) {
+.aboutme-img{
+    max-height: 400px;
+}
+@media only screen and (max-width: 640px) {
+    .portfolio-img{
+        max-height: 400px;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 641px) {
+    .card{
+        max-width: 367px;
+
+    }
+    }

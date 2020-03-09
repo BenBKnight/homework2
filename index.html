@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Portfolio</title>
 </head>
-<body>
 
-<div class="container-fluid">
-<div class="row head-row">
-    <header class="col head-size" style="background-color: rgb(19, 158, 144); padding: 30;">
-        <h1 class=" text-center" style="color: white;"> Ben Knight</h1> 
-    </header>
-    <div class="col navbar navbar-light">
-            <a class="nav-item nav-link" href="#">About</a> <span style="color: rgb(218, 218, 218);">|</span>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a><span style="color: rgb(218, 218, 218);">|</span>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-    </div>
-</div>    
-    <div class="row">
-        <div class="col content-aboutme">
+<body class="container-fluid">
+
+    <!--Name and navigation bar-->
+    
+    <article class="row head-row">
+        <header class="col head-size" style="background-color: rgb(19, 158, 144); padding: 30;">
+            <h1 class=" text-center" style="color: white;"> Ben Knight</h1> 
+        </header>
+
+        <nav class="col navbar navbar-light">
+                <a class="nav-item nav-link" href="#">About</a> <span style="color: rgb(218, 218, 218);">|</span>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a><span style="color: rgb(218, 218, 218);">|</span>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </nav>
+    </article> 
+
+    <!--Main content- About me-->
+    
+    <main class="row">
+        <article class="col content-aboutme">
             <h2 class="aboutme"> About me</h2><br>
             <img src="./assets/photo/bkwaterfall.jpg" class="aboutme-img">
             
@@ -32,13 +38,16 @@
                 cupiditate, necessitatibus magni amet vitae voluptatum iusto doloremque voluptatibus recusandae possimus, sunt temporibus, 
                 voluptates neque sint consequuntur numquam? Ipsam sed, deleniti ad vel nam rerum?
             </p>
+        </article>
+    </main>
+
+    <!--Footer-->
+    
+    <footer class="row">
+        <div class="col footer index-footer">
+            <span class="copyright"> © Copyright</span>
         </div>
-    </div>
-<footer class="row">
-    <div class="col footer" style="position: absolute; bottom: 0;">
-        <span class="copyright"> © Copyright</span>
-    </div>
-</footer>
-</div>
-</html>
+    </footer>
+
 </body>
+</html>

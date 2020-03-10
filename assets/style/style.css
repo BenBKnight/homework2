@@ -30,9 +30,7 @@ body {
     position: absolute;
     bottom: 20px;
 }
-.head-size {
-    /* Only a class for media responsiveness */
-}
+
 .head-row {
     background-color: white;
     border-bottom: rgb(160, 160, 160);
@@ -150,10 +148,7 @@ div.absolute {
         margin: 0 0 20px 0;}
 }}
     
-@media only screen and (max-width: 640px) {
-    header.col {
-        flex-basis: auto;
-}} 
+
 @media only screen and (min-width: 641px) {
     header.col.head-size {
         max-width: 250px;
@@ -169,3 +164,7 @@ div.absolute {
     .portfolio-footer, .portfolio-copyright {
         position: static;
 }}
+@media only screen and (max-width: 640px) {
+    header.col.head-size {
+        flex-basis : auto;
+}} 
